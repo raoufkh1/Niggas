@@ -7,7 +7,7 @@ const Card = ({name, price, index,img}) => {
     const { increaseAmount, decreaseAmount, removeItem, addToCart, state } =
     useGlobalContext()
     return (
-        <div>
+        <div dir='rtl'>
 
 
             <div className="w-full max-w-sm bg-white border border-[hsl(26,100,55)] rounded-lg shadow">

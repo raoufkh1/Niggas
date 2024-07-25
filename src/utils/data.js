@@ -3,6 +3,10 @@ import black1 from '../assets/black1.webp'
 import black2 from '../assets/black2.jpg'
 import black3 from '../assets/black3.webp'
 import black4 from '../assets/black4.webp'
+import women1 from '../assets/women1.jpg'
+import women2 from '../assets/women2.png'
+import women3 from '../assets/women3.jpg'
+import women4 from '../assets/women4.jpg'
 export const data = [{
   productId: 1,
   companyName: "كمية محدودة",
@@ -63,4 +67,52 @@ export const products = [{
   salePercent: 1,
   amount: 0,
   image: black4,
+}]
+export const womens = [{
+  productId: 6,
+  companyName: "كمية محدودة",
+  productName: "من امريكا اهم شي  ",
+  productDescription:
+    "اجود انواع العبيد الموجودة و بسعر مغري",
+  productPrice: 41000000,
+  isOnSale: true,
+  salePercent: 1,
+  amount: 0,
+  image: women1,
+},
+{
+  productId: 7,
+  companyName: "كمية محدودة",
+  productName: " 2 في 1",
+  productDescription:
+    "اجود انواع العبيد الموجودة و بسعر مغري",
+  productPrice: 2500000,
+  isOnSale: true,
+  salePercent: 1,
+  amount: 0,
+  image: women2,
+},
+{
+  productId: 8,
+  companyName: "كمية محدودة",
+  productName: " اجمل منك    ",
+  productDescription:
+    "اجود انواع العبيد الموجودة و بسعر مغري",
+  productPrice: 369990000,
+  isOnSale: true,
+  salePercent: 1,
+  amount: 0,
+  image: women3,
+},
+{
+  productId: 9,
+  companyName: "كمية محدودة",
+  productName: " تخوف بيها الاطفال  ",
+  productDescription:
+    "اجود انواع العبيد الموجودة و بسعر مغري",
+  productPrice: 51000000,
+  isOnSale: true,
+  salePercent: 1,
+  amount: 0,
+  image: women4,
 }]

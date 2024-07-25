@@ -5,7 +5,7 @@ import FloatingCart from "../components/FloatingCart"
 import { useGlobalContext } from "../context/context"
 import { Link } from "react-router-dom"
 
-const navLinks = ["men",]
+const navLinks = ["men","women"]
 
 const Navigator = () => {
   const { showSidebar, showCart, hideCart, state } = useGlobalContext()
